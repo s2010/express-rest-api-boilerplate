@@ -12,7 +12,7 @@ const cors = require('cors');
 /**
  * server configuration
  */
-const config = require('../config/');
+const config =require('../config/');
 const dbService = require('./services/db.service');
 const auth = require('./policies/auth.policy');
 
